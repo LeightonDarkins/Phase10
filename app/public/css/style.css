@@ -1,0 +1,115 @@
+@row-height: 170px;
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+  margin: 5px;
+}
+
+.game-row {
+  height: 170px;
+}
+
+.current-card-column {
+  height: 100%;
+}
+
+.card-pile-column {
+  height: 100%;
+}
+
+.phase-row {
+  height: 300px;
+}
+
+.hand-row {
+  height: 170px;
+}
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  height: 150px;
+  width: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.hand-row .card {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.phase-row .card {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.card-back {
+  background-color: #6C8EBE;
+  border: 1px solid #00317F;
+}
+
+.card-number {
+  color: white;
+  margin-top: 10px;
+  height: 103px;
+  font-size: 72px;
+}
+
+.card-icon {
+  height: 145px;
+}
+
+.blue {
+  border: 1px solid #103A82;
+  background-color: #244E96;
+}
+
+.red {
+  border: 1px solid #BD1B1A;
+  background-color: #D12F2E;
+}
+
+.yellow {
+  border: 1px solid #D9BA00;
+  background-color: #EDCE00;
+}
+
+.green {
+  border: 1px solid #205317;
+  background-color: #34672B;
+}
+
+.points {
+  font-size: 27px;
+}
+
+.phase {
+  display: inline-block;
+  font-size: 27px;
+  margin-top: 25px;
+}
+
+.card-action-section {
+  margin-bottom: 5px;
+}
+
+.card-action-container {
+  display: inline-block;
+  width: 45%;
+}
+
+.card-action-icon {
+  color: white;
+}
+
+.card-action-icon:hover {
+  cursor: pointer;
+  color: black;
+}
